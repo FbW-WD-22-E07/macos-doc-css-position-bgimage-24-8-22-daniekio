@@ -1,25 +1,35 @@
 * {
-    /* how to reset your css ? */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
-    /* maybe make a default doc width? */
 }
 
 body {
-    /* how to make a background image ? */
-    
-    /* do you need height and width ? */
+    background-image: url("images/macos.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 #doc {
-     /* you need display and position  */
+    position: fixed;
+    /*background-color: red;*/
+    width: 60%;
+    left: 20%;
+    bottom: 20px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 50%, 40%);
 }
 
 .doc-icon {
-    /* give a width and slow down the hover animation */
+    width: 50px;
+    transition: transform 0.5s;
 }
 
 .doc-icon:hover {
-    /* make the animation you like */
+    transform: scale(1.2) translateY(-30px);
 }
